@@ -24,7 +24,36 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.swiper-box.data-v-57280228 {
-  background-color: hotpink;
+.swiper-item.data-v-57280228 {
+  height: 100%;
+  width: 100%;
+}
+.on.data-v-57280228 {
+  height: 100%;
+  width: 100%;
+  background-color: #ccc;
+  font-size: 56.25rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav.data-v-57280228 {
+  height: 262.52rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 37.5rpx;
+  margin-bottom: 46.88rpx;
+}
+.username.data-v-57280228 {
+  background-color: #ccc;
+  margin: 37.5rpx 11rpx 0 0;
+  height: 90rpx;
+  width: 16%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22.5rpx;
 }
 

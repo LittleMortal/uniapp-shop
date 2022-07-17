@@ -143,13 +143,38 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
-    return {};
+    return {
+      checked: false,
+      count: 0,
+      goodsList: [1, 2] };
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    // 全选按钮,改变状态
+    editChecked: function editChecked() {
+      this.checked = !this.checked;
+    } } };exports.default = _default;
 
 /***/ }),
 

@@ -35,9 +35,49 @@ page
 .main.data-v-78bf14d2 {
   flex: 1;
   overflow: hidden;
+  overflow-y: scroll;
+  background-color: #ccc;
 }
 .footer.data-v-78bf14d2 {
-  height: 120rpx;
+  box-shadow: 4px 4px 4px 4px #ccc;
+  height: 100rpx;
   width: 100%;
+  padding: 0 28.13rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.footer .foo-left.data-v-78bf14d2 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 26.25rpx;
+}
+.footer .foo-left .radio.data-v-78bf14d2 {
+  font-size: 26.25rpx;
+  display: flex;
+  align-items: center;
+}
+.footer .foo-center.data-v-78bf14d2 {
+  flex: 1;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 26.25rpx;
+  justify-content: flex-end;
+  padding-right: 15rpx;
+}
+.footer .pay-btn.data-v-78bf14d2 {
+  background-color: #fd5432;
+  width: 30%;
+  color: #fff;
+  height: 75rpx;
+  font-size: 26.25rpx;
+  text-align: center;
+  line-height: 75rpx;
+  border-radius: 37.5rpx;
 }
 

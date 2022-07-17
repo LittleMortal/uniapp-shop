@@ -152,25 +152,36 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
     return {
-      info: [{
-        content: '内容 A' },
-      {
-        content: '内容 B' },
-      {
-        content: '内容 C' }],
+      bannerList: [
+      { content: '内容一' },
+      { content: '内容二' },
+      { content: '内容三' },
+      { content: '内容四' }],
 
-      current: 0,
-      mode: 'round' };
+      goodsList: [
+      { username: '帽子' },
+      { username: '衣服' },
+      { username: '连衣裙' },
+      { username: '衬衫' },
+      { username: 'T恤' },
+      { username: '夹克' },
+      { username: '鞋子' },
+      { username: '手机' },
+      { username: '电脑' },
+      { username: '更多...' }] };
+
 
   },
-  methods: {
-    change: function change(e) {
-      this.current = e.detail.current;
-    } } };exports.default = _default;
+  methods: {} };exports.default = _default;
 
 /***/ }),
 /* 18 */
